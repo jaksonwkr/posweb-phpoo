@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280px, initial-scale=1.0">
+    <title>Funcionário</title>
+</head>
+
+<body>
+
+    <div style="justify-content: center; display: flex;">
+        <form action="/exibir_veiculo.php" method="post"
+            style="flex-direction: column; display: flex; flex-flow: column;">
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+            </p>
+            <p>
+                <label for="modelo">Modelo</label>
+                <input type="text" name="modelo" id="modelo">
+            </p>
+            <p>
+                <label for="marca">Marca</label>
+                <input type="text" name="marca" id="marca">
+            </p>
+            <p>
+                <label for="tipo">Tipo:</label>
+                <select name="tipo" id="tipo">
+                    <option value="1">Carro</option>
+                    <option value="2">Moto</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
