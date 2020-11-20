@@ -1,0 +1,5 @@
+{
+    "require": {
+        "bissolli/validador-cpf-cnpj": "^1.2"
+    }
+}
